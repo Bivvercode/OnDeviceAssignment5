@@ -11,6 +11,8 @@
 		7D4D41BC2AE68AF800F295D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D41BB2AE68AF800F295D8 /* ContentView.swift */; };
 		7D4D41BE2AE68AFA00F295D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4D41BD2AE68AFA00F295D8 /* Assets.xcassets */; };
 		7D4D41C12AE68AFA00F295D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4D41C02AE68AFA00F295D8 /* Preview Assets.xcassets */; };
+		7D4D41C82AE68B6B00F295D8 /* AnimalImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D41C72AE68B6B00F295D8 /* AnimalImageClassifier.mlmodel */; };
+		7D4D41CA2AE68BB200F295D8 /* DoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D41C92AE68BB200F295D8 /* DoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7D4D41BB2AE68AF800F295D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D4D41BD2AE68AFA00F295D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D4D41C02AE68AFA00F295D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D4D41C72AE68B6B00F295D8 /* AnimalImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AnimalImageClassifier.mlmodel; sourceTree = "<group>"; };
+		7D4D41C92AE68BB200F295D8 /* DoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			children = (
 				7D4D41B92AE68AF800F295D8 /* OnDeviceAssignment5App.swift */,
 				7D4D41BB2AE68AF800F295D8 /* ContentView.swift */,
+				7D4D41C92AE68BB200F295D8 /* DoModel.swift */,
 				7D4D41BD2AE68AFA00F295D8 /* Assets.xcassets */,
+				7D4D41C72AE68B6B00F295D8 /* AnimalImageClassifier.mlmodel */,
 				7D4D41BF2AE68AFA00F295D8 /* Preview Content */,
 			);
 			path = OnDeviceAssignment5;
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4D41CA2AE68BB200F295D8 /* DoModel.swift in Sources */,
 				7D4D41BC2AE68AF800F295D8 /* ContentView.swift in Sources */,
+				7D4D41C82AE68B6B00F295D8 /* AnimalImageClassifier.mlmodel in Sources */,
 				7D4D41BA2AE68AF800F295D8 /* OnDeviceAssignment5App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
